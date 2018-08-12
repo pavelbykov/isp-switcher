@@ -42,6 +42,5 @@ Usage
 -----
 
 
-*isp-switcher <isp_name>*
-~~~~~~~~~~~~~~~~~~~~~~~
+isp-switcher.sh <isp_name>
 
