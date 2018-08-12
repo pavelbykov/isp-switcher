@@ -5,7 +5,7 @@ Tool to switch ISPs in dual-homed setup with Mikrotik routers.
 Each ISP is connected to a separate router.
 Routers run virtual gateway for the hosts on the lan.
 
-
+``
  +------+    +------+
  | ISP1 |    | ISP2 |
  +------+    +------+
@@ -21,7 +21,7 @@ Routers run virtual gateway for the hosts on the lan.
     |     |      |
     |     |      |
   --+----LAN-----+--
-
+``
 
 The script switches VRRP priority and verifies that the new ISP has been selected.
 
