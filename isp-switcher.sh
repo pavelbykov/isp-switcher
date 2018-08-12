@@ -9,7 +9,7 @@ import subprocess
 #Get current provider
 
 #Run "Get My ISP"(tm) script
-bashCommand = "./get-my-isp"
+bashCommand = "../get-my-isp/get-my-isp.sh"
 
 process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
